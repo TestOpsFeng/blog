@@ -17,3 +17,9 @@ type: git
 
 2.修改为：https://username:password@github.com/username/username.github.io.git
 
+为防止换电脑导致网站资料丢失，把\source\_posts的内容上传至github，步骤为
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin git@github.com:simlefeng/blog.git
+git push -u origin master
